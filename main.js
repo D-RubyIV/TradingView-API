@@ -1,3 +1,6 @@
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '.env') });
+
 const miscRequests = require('./src/miscRequests');
 const Client = require('./src/client');
 const BuiltInIndicator = require('./src/classes/BuiltInIndicator');
